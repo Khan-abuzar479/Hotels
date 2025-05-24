@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 app.get('/Home', (req, res) => {
   res.send("Hello Abuzar khan kase ho ")
 })
-
+// this is our first programe in or life
 app.listen(PORT, () => {
   console.log("Servre is runninng");
   
